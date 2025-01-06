@@ -4,29 +4,21 @@ import { FaLinkedin, FaGithub, FaMedium, FaYoutube, FaGlobe } from 'react-icons/
 
 const Header = () => {
   return (
-    <header className="fixed top-0 w-full bg-white/80 backdrop-blur-sm z-50 shadow-sm">
+    <header className="fixed top-0 w-full bg-black/80 backdrop-blur-sm z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-4">
-            <div className="relative h-12 w-12 rounded-full overflow-hidden">
-              <Image
-                src="/placeholder-avatar.jpg"
-                alt="Akilesh Anandharaj"
-                fill
-                className="object-cover"
-              />
-            </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Akilesh Anandharaj</h1>
-              <p className="text-sm text-gray-600">Data Engineer | Cloud Specialist | Analytics Enthusiast</p>
+              <h1 className="text-xl font-bold text-white">Akilesh Anandharaj</h1>
+              <p className="text-sm text-gray-400">Data Engineer | Cloud Specialist | Analytics Enthusiast</p>
             </div>
           </div>
           
           <nav className="hidden md:flex items-center space-x-6">
-            <Link href="#about" className="text-gray-600 hover:text-gray-900">About</Link>
-            <Link href="#skills" className="text-gray-600 hover:text-gray-900">Skills</Link>
-            <Link href="#experience" className="text-gray-600 hover:text-gray-900">Experience</Link>
-            <Link href="#contact" className="text-gray-600 hover:text-gray-900">Contact</Link>
+            <Link href="#about" className="text-gray-400 hover:text-white">About</Link>
+            <Link href="#skills" className="text-gray-400 hover:text-white">Skills</Link>
+            <Link href="#experience" className="text-gray-400 hover:text-white">Experience</Link>
+            <Link href="#contact" className="text-gray-400 hover:text-white">Contact</Link>
           </nav>
 
           <div className="flex items-center space-x-4">
@@ -48,7 +40,7 @@ const SocialLink = ({ href, icon, label }: { href: string; icon: React.ReactNode
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="text-gray-600 hover:text-gray-900 transition-colors"
+      className="text-gray-400 hover:text-white transition-colors"
       aria-label={label}
     >
       <span className="text-xl">{icon}</span>
@@ -56,4 +48,4 @@ const SocialLink = ({ href, icon, label }: { href: string; icon: React.ReactNode
   );
 };
 
-export default Header; 
+export default Header;
