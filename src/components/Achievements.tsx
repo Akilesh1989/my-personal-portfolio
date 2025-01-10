@@ -17,6 +17,10 @@ const Achievements = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
             {
+              title: "Built This Website",
+              description: "Designed and developed this portfolio website using Next.js, TypeScript, and Tailwind CSS, showcasing modern web development practices and clean code architecture."
+            },
+            {
               title: "Globus Top 25 Performer Worldwide",
               description: "Recognized for developing the best winning strategy in a global competition."
             },

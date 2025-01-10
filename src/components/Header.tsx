@@ -20,14 +20,7 @@ const Header = () => {
             <Link href="#experience" className="text-gray-400 hover:text-white">Experience</Link>
             <Link href="#contact" className="text-gray-400 hover:text-white">Contact</Link>
           </nav>
-
-          <div className="flex items-center space-x-4">
-            <SocialLink href="https://linkedin.com" icon={<FaLinkedin />} label="LinkedIn" />
-            <SocialLink href="https://github.com" icon={<FaGithub />} label="GitHub" />
-            <SocialLink href="https://medium.com" icon={<FaMedium />} label="Medium" />
-            <SocialLink href="https://youtube.com" icon={<FaYoutube />} label="YouTube" />
-            <SocialLink href="https://example.com" icon={<FaGlobe />} label="Website" />
-          </div>
+          
         </div>
       </div>
     </header>
