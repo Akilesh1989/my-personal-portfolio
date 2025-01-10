@@ -28,7 +28,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            With over 12 years of experience in data engineering and cloud solutions,
+            With a decade of experience in data engineering and cloud solutions,
             I help organizations build scalable data infrastructure and derive meaningful insights.
           </motion.p>
           <motion.div 

@@ -1,0 +1,118 @@
+# Personal Information
+personal:
+  name: "Akilesh Anandharaj"
+  title: "Data Engineer | Cloud Specialist | Analytics Enthusiast"
+  email: "Akilesh.raj@gmail.com"
+  hero_description: "With over 10 years of experience in data engineering and cloud solutions, I help organizations build scalable data infrastructure and derive meaningful insights."
+
+# Social Links
+social:
+  linkedin: "https://linkedin.com/in/akilesh"
+  github: "https://github.com/akilesh"
+  medium: "https://medium.com/@akilesh"
+  youtube: "https://youtube.com/@akilesh"
+  website: "https://akilesh.com"
+
+# About Section
+about:
+  professional:
+    description:
+      - "With over 10 years of experience in data engineering and analytics, I specialize in building robust data infrastructure and delivering actionable insights that drive business growth."
+      - "My expertise spans across modern data stack implementation, cloud architecture, and advanced analytics solutions. I'm passionate about leveraging cutting-edge technologies to solve complex data challenges."
+    core_competencies:
+      - "ETL Pipeline Development & Optimization"
+      - "Cloud Infrastructure (AWS, Azure, GCP)"
+      - "Big Data Processing & Analytics"
+      - "Data Warehouse Architecture"
+      - "Real-time Data Solutions"
+      - "Team Leadership & Project Management"
+  
+  personal:
+    description:
+      - "Beyond the world of data, I'm a proud father of two wonderful children - a curious and energetic 5-year-old boy who keeps me on my toes with endless 'why' questions, and a delightful 5-month-old girl whose smiles brighten up my every day."
+      - "Balancing family life with my passion for technology has taught me invaluable lessons in time management, patience, and the importance of continuous learning. When I'm not coding or spending time with my family, you might find me exploring new technologies or sharing my knowledge with the tech community."
+    parenting_superpowers:
+      - "Professional 3 AM Baby Whisperer"
+      - "Expert Toddler Tantrum Negotiator"
+      - "Master of One-Handed Typing While Holding Baby"
+      - "Surviving on 4 Hours of Sleep and Still Coding"
+      - "Simultaneous Diaper Change & Code Review Expert"
+      - "Professional 'Why?' Question Answerer"
+
+# Skills Section
+skills:
+  data_engineering:
+    title: "Data Engineering & Analytics"
+    description: "Expertise in ETL pipelines, data warehousing, real-time streaming, data transformation, data partitioning, and query optimization."
+  
+  programming:
+    title: "Programming & Scripting"
+    technologies:
+      - "Python"
+      - "SQL"
+      - "Spark SQL"
+      - "PySpark"
+      - "Scala"
+      - "Bash"
+      - "BigQuery SQL"
+  
+  tools:
+    title: "Tools & Platforms"
+    technologies:
+      - "Azure Databricks"
+      - "Delta Lake"
+      - "BigQuery"
+      - "Redshift"
+      - "Apache Kafka"
+      - "TensorFlow"
+      - "AWS"
+      - "GCP"
+      - "Azure"
+
+# Experience Section
+experience:
+  - company: "Blue Altair"
+    position: "Manager"
+    period: "09/2022 - Present"
+    achievements:
+      - "Increased data transformation speed by 40% with SQL to Spark SQL refactoring"
+      - "Designed a robust medallion architecture ensuring seamless data flow"
+      - "Developed a low-latency streaming architecture for real-time decision-making using Apache Kafka"
+      - "Built a scalable pipeline on GCP BigQuery for instant insights"
+
+  - company: "Baaz"
+    position: "Head of Data Science and DevOps"
+    period: "06/2021 - 06/2022"
+    achievements:
+      - "Improved customer satisfaction by 25% through real-time NLP sentiment analysis"
+      - "Built recommendation engines for personalized customer experiences"
+      - "Enhanced user experience by optimizing front-end performance with real-time image compression"
+
+  - company: "Dataspark"
+    position: "Senior Data Service Engineer"
+    period: "02/2020 - 06/2021"
+    achievements:
+      - "Reduced SQL processing time by 99%, boosting operational efficiency"
+      - "Enhanced marketing strategies with advanced customer segmentation models"
+      - "Streamlined delivery processes, cutting processing time by 95%"
+
+# Achievements Section
+achievements:
+  - title: "Globus Top 25 Performer Worldwide"
+    description: "Recognized for developing the best winning strategy in a global competition."
+  
+  - title: "Outstanding Performance Award"
+    description: "Received from Tata Consultancy Services for exceptional contributions and performance."
+  
+  - title: "National Service Scheme Award"
+    description: "Honored for dedicated participation and leadership in social service activities."
+
+# Education Section
+education:
+  - degree: "Master of IT in Business"
+    school: "Singapore Management University"
+    period: "2013 - 2015"
+  
+  - degree: "B.E. Mechanical Engineering"
+    school: "Sri Krishna College of Technology, Coimbatore"
+    period: "2007 - 2011" 
